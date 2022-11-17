@@ -1,0 +1,85 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+background-color: rgb(233, 188, 203);
+}
+
+.album{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2vw;
+    padding: 10vw;
+}
+
+.foto-album img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 16%
+}
+
+.foto-album{
+    width: 340px;
+    height: 340px;
+    border: 10px solid LightPink;
+    box-shadow: 5px 5px 5px Crimson;
+    flex-grow: 1;
+    transition: tranform .2s;
+    filter: sepia(100%) contrast(200%) hue-rotate(200deg);
+    border-radius: 18%;
+}
+
+.foto-album:hover{
+    transform: scale(0.9);
+    filter: sepia(0);
+    
+} 
+
+#cabecalho {
+    color: palevioletred;
+    padding: 5%;
+    font-size: 1.3em;
+}
+
+footer{
+    display: block;
+    bottom: 0vh;
+    left: 5%;
+    background-color: palevioletred;
+    padding: 16px;
+    color: rgb(128, 13, 84);
+    height: 50px;
+}
+
+h2 {
+    text-align: center;
+    color: palevioletred;
+}
+
+.nav{
+    text-align: center;
+    margin: 10px auto;
+    width: 140px;
+    height: 36px;
+    list-style: none;
+    background: rgb(214, 73, 99);
+    text-transform: uppercase;
+
+    font-family: 'open sans condensed', sans-serif;
+    font-size: 15px;
+    transition: 2s;
+    padding: 5px 5px;
+
+    border: 5px solid pink ;
+    background: palevioletred;
+    border-radius: 10px;
+    
+}
+a:visited {
+    color: pink ;
+}
